@@ -8,14 +8,14 @@ class BMICalculator extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primaryColor: Color(0xFF0A0E21),
-        scaffoldBackgroundColor: Color(0xFF0A0E21),
-        accentColor: Colors.indigo[900],
-        textTheme: TextTheme(
-          body1: TextStyle(color: Color(0xffffffff)),
-        ),
-      ),
+      // theme: ThemeData(
+      //   primaryColor: Color(0xFF0A0E21),
+      //   scaffoldBackgroundColor: Color(0xFF0A0E21),
+      //   accentColor: Colors.indigo[900],
+      //   textTheme: TextTheme(
+      //    //body1: TextStyle(color: Color(0xffffffff)),
+      //   ),
+      // ),
       home: InputPage(),
     );
   }
